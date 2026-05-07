@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="hero">
+        <header class="header center">
+            <a class="header__logo logo" href="#">
+                <img src="images/Logo (2).svg" alt="logo">
+            </a>
+            <nav class="header__nav nav">
+                <a class="nav__link nav__link_active" href="#">Main</a>
+                <a class="nav__link" href="#">Portfolio</a>
+                <a class="nav__link" href="#">Price</a>
+                <a class="nav__link" href="#">Certifications</a>
+                <a class="nav__link" href="#">Contacts</a>
+            </nav>
+
+            <a class="header__phone phone" href="tel:+447755555764">
+                <span class="phone__text">(+44) 7755-555-764</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M19 12C19 10.05 18.3208 8.39583 16.9625 7.0375C15.6042 5.67917 13.95 5 12 5V3C13.25 3 14.4208 3.2375 15.5125 3.7125C16.6042 4.1875 17.5542 4.82917 18.3625 5.6375C19.1708 6.44583 19.8125 7.39583 20.2875 8.4875C20.7625 9.57917 21 10.75 21 12H19ZM15 12C15 11.1667 14.7083 10.4583 14.125 9.875C13.5417 9.29167 12.8333 9 12 9V7C13.3833 7 14.5625 7.4875 15.5375 8.4625C16.5125 9.4375 17 10.6167 17 12H15ZM19.95 21C17.8667 21 15.8083 20.5458 13.775 19.6375C11.7417 18.7292 9.89167 17.4417 8.225 15.775C6.55833 14.1083 5.27083 12.2583 4.3625 10.225C3.45417 8.19167 3 6.13333 3 4.05C3 3.75 3.1 3.5 3.3 3.3C3.5 3.1 3.75 3 4.05 3H8.1C8.33333 3 8.54167 3.07917 8.725 3.2375C8.90833 3.39583 9.01667 3.58333 9.05 3.8L9.7 7.3C9.73333 7.56667 9.725 7.79167 9.675 7.975C9.625 8.15833 9.53333 8.31667 9.4 8.45L6.975 10.9C7.30833 11.5167 7.70417 12.1125 8.1625 12.6875C8.62083 13.2625 9.125 13.8167 9.675 14.35C10.1917 14.8667 10.7333 15.3458 11.3 15.7875C11.8667 16.2292 12.4667 16.6333 13.1 17L15.45 14.65C15.6 14.5 15.7958 14.3875 16.0375 14.3125C16.2792 14.2375 16.5167 14.2167 16.75 14.25L20.2 14.95C20.4333 15.0167 20.625 15.1375 20.775 15.3125C20.925 15.4875 21 15.6833 21 15.9V19.95C21 20.25 20.9 20.5 20.7 20.7C20.5 20.9 20.25 21 19.95 21ZM6.025 9L7.675 7.35L7.25 5H5.025C5.10833 5.68333 5.225 6.35833 5.375 7.025C5.525 7.69167 5.74167 8.35 6.025 9ZM14.975 17.95C15.625 18.2333 16.2875 18.4583 16.9625 18.625C17.6375 18.7917 18.3167 18.9 19 18.95V16.75L16.65 16.275L14.975 17.95Z"
+                        fill="white" />
+                </svg>
+            </a>
+
+            <button class="burger" type="button" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+
+        <nav class="mobile-menu">
+            <a class="mobile-menu__link" href="#">Main</a>
+            <a class="mobile-menu__link" href="#">Portfolio</a>
+            <a class="mobile-menu__link" href="#">Price</a>
+            <a class="mobile-menu__link" href="#">Certifications</a>
+            <a class="mobile-menu__link" href="#">Contacts</a>
+        </nav>
+
+        <div class="hero__content">
+            <div class="hero__info">
+                <h1 class="hero__title">Construction services</h1>
+                <p class="text-big">
+                    From residential renovations to large-scale commercial projects —
+                    we bring craftsmanship, reliability, and precision to every build.
+                </p>
+                <a class="button hero__margin" href="#">Request a free quote</a>
+            </div>
+            <img class="hero__img" src="images/hero.svg.jpg" alt="Modern building">
+        </div>
+    </section>
+    <section class="about padding-tb">
+        <div class="about__content">
+            <div class="about__info">
+                <h2 class="heading">About us</h2>
+
+                <div class="about__text">
+                    <p class="text-big">
+                        At BuildWise, we believe every project is more than bricks and mortar — it's a vision brought to
+                        life.
+                    </p>
+                    <p class="text-big">
+                        Our team combines expert craftsmanship, innovative design, and uncompromising safety standards.
+                    </p>
+                    <p class="text-big">
+                        Our mission is simple: to build spaces that inspire, serve, and last for generations.
+                    </p>
+                </div>
+
+                <a class="button about__button" href="#">More about us</a>
+            </div>
+
+            <div class="about__picture">
+                <img class="about__img" src="images/about.jpeg.jpg" alt="Modern house">
+            </div>
+        </div>
+    </section>
+    <section class="portfolio padding-tb">
+        <div class="portfolio__header">
+            <h2 class="heading">Our portfolio</h2>
+            <p class="text-big">
+                From sleek modern homes to large-scale commercial complexes, our projects reflect the skill,
+                precision, and dedication we bring to every build. Each one tells a story of careful planning,
+                expert execution, and lasting quality.
+            </p>
+        </div>
+
+        <div class="portfolio__slider">
+
+            <button class="portfolio__arrow portfolio__arrow--prev"></button>
+
+            <div class="portfolio__track">
+
+                <div class="portfolio__card">
+                    <img src="images/portfolio1.pgn.png" alt="">
+                    <div class="portfolio__card-info">
+                        <h3>Metro Office Hub</h3>
+                        <p>Complete office fit-out for a 10,000 sq ft corporate headquarters.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio__card">
+                    <img src="images/portfolio2.pgn.png" alt="">
+                    <div class="portfolio__card-info">
+                        <h3>Riverside Heights</h3>
+                        <p>Luxury residential complex with panoramic views and eco-friendly design.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio__card">
+                    <img src="images/portfolio3.pgn.png" alt="">
+                    <div class="portfolio__card-info">
+                        <h3>Hillside Villa Renovation</h3>
+                        <p>Full interior and exterior remodel blending classic charm with modern finishes.</p>
+                    </div>
+                </div>
+                <div class="portfolio__card">
+                    <img src="images/portfolio4.pgn.png" alt="Hillside Villa Restoration">
+                    <div class="portfolio__card-info">
+                        <h3 class="portfolio__card-title">Hillside Villa Restoration</h3>
+                        <p class="portfolio__card-text">Complete restoration of a heritage property, blending classic
+                            architecture with modern comforts.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio__card">
+                    <img src="images/portfolio5.pgn.png" alt="Riverside Heights Residences">
+                    <div class="portfolio__card-info">
+                        <h3 class="portfolio__card-title">Riverside Heights Residences</h3>
+                        <p class="portfolio__card-text">A modern riverside apartment complex with energy-efficient
+                            design and panoramic city views.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio__card">
+                    <img src="images/portfolio6.pgn.png" alt="Maple Grove Townhomes">
+                    <div class="portfolio__card-info">
+                        <h3 class="portfolio__card-title">Maple Grove Townhomes</h3>
+                        <p class="portfolio__card-text">A stylish suburban development offering comfort, community, and
+                            convenience.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="portfolio__arrow portfolio__arrow--next"></button>
+
+        </div>
+
+        <div class="portfolio__footer">
+            <div class="portfolio__dots">
+                <span class="portfolio__counter">01<span class="portfolio__counter-total">/06</span></span>
+                <div class="portfolio__progress">
+                    <div class="portfolio__progress-bar"></div>
+                </div>
+            </div>
+
+            <a class="button portfolio__btn" href="#">View Full Portfolio ›</a>
+        </div>
+    </section>
+
+    <section class="certs">
+        <div class="certs__header">
+            <h2 class="heading">Certifications & credentials</h2>
+            <p class="text-big">
+                We believe great construction starts with strong foundations — not just in buildings, but in
+                professional standards. Our team holds industry-recognized certifications that ensure your project
+                meets the highest levels of safety, quality, and compliance.
+            </p>
+        </div>
+
+        <div class="certs__grid">
+            <div class="certs__card">
+                <div class="certs__card-top">
+                    <h3 class="certs__card-title">Fully Licensed & Insured</h3>
+                    <p class="certs__card-text">Commitment to quality management in every process.</p>
+                    <span class="certs__card-year">2025</span>
+                </div>
+                <div class="certs__card-bottom">
+                    <span class="certs__badge">Winner</span>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="white">
+                        <path
+                            d="M9.675 13.7L10.55 10.85L8.25 9H11.1L12 6.2L12.9 9H15.75L13.425 10.85L14.3 13.7L12 11.925L9.675 13.7ZM6 23V15.275C5.36667 14.575 4.875 13.775 4.525 12.875C4.175 11.975 4 11.0167 4 10C4 7.76667 4.775 5.875 6.325 4.325C7.875 2.775 9.76667 2 12 2C14.2333 2 16.125 2.775 17.675 4.325C19.225 5.875 20 7.76667 20 10C20 11.0167 19.825 11.975 19.475 12.875C19.125 13.775 18.6333 14.575 18 15.275V23L12 21L6 23ZM12 16C13.6667 16 15.0833 15.4167 16.25 14.25C17.4167 13.0833 18 11.6667 18 10C18 8.33333 17.4167 6.91667 16.25 5.75C15.0833 4.58333 13.6667 4 12 4C10.3333 4 8.91667 4.58333 7.75 5.75C6.58333 6.91667 6 8.33333 6 10C6 11.6667 6.58333 13.0833 7.75 14.25C8.91667 15.4167 10.3333 16 12 16ZM8 20.025L12 19L16 20.025V16.925C15.4167 17.2583 14.7875 17.5208 14.1125 17.7125C13.4375 17.9042 12.7333 18 12 18C11.2667 18 10.5625 17.9042 9.8875 17.7125C9.2125 17.5208 8.58333 17.2583 8 16.925V20.025Z" />
+                    </svg>
+                    <path
+                        d="M9.675 13.7L10.55 10.85L8.25 9H11.1L12 6.2L12.9 9H15.75L13.425 10.85L14.3 13.7L12 11.925L9.675 13.7ZM6 23V15.275C5.36667 14.575 4.875 13.775 4.525 12.875C4.175 11.975 4 11.0167 4 10C4 7.76667 4.775 5.875 6.325 4.325C7.875 2.775 9.76667 2 12 2C14.2333 2 16.125 2.775 17.675 4.325C19.225 5.875 20 7.76667 20 10C20 11.0167 19.825 11.975 19.475 12.875C19.125 13.775 18.6333 14.575 18 15.275V23L12 21L6 23ZM12 16C13.6667 16 15.0833 15.4167 16.25 14.25C17.4167 13.0833 18 11.6667 18 10C18 8.33333 17.4167 6.91667 16.25 5.75C15.0833 4.58333 13.6667 4 12 4C10.3333 4 8.91667 4.58333 7.75 5.75C6.58333 6.91667 6 8.33333 6 10C6 11.6667 6.58333 13.0833 7.75 14.25C8.91667 15.4167 10.3333 16 12 16ZM8 20.025L12 19L16 20.025V16.925C15.4167 17.2583 14.7875 17.5208 14.1125 17.7125C13.4375 17.9042 12.7333 18 12 18C11.2667 18 10.5625 17.9042 9.8875 17.7125C9.2125 17.5208 8.58333 17.2583 8 16.925V20.025Z"
+                        fill="#052838" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="certs__card">
+                <div class="certs__card-top">
+                    <h3 class="certs__card-title">ISO 9001:2015 Certified</h3>
+                    <p class="certs__card-text">Commitment to quality management in every process.</p>
+                    <span class="certs__card-year">2023, 2024, 2025</span>
+                </div>
+                <div class="certs__card-bottom">
+                    <span class="certs__badge">Winner</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="white">
+                        <path
+                            d="M12 20C13.25 20 14.3125 19.5625 15.1875 18.6875C16.0625 17.8125 16.5 16.75 16.5 15.5C16.5 14.25 16.0625 13.1875 15.1875 12.3125C14.3125 11.4375 13.25 11 12 11C10.75 11 9.6875 11.4375 8.8125 12.3125C7.9375 13.1875 7.5 14.25 7.5 15.5C7.5 16.75 7.9375 17.8125 8.8125 18.6875C9.6875 19.5625 10.75 20 12 20ZM9.075 9.7C9.40833 9.51667 9.7625 9.37083 10.1375 9.2625C10.5125 9.15417 10.8917 9.08333 11.275 9.05L8.75 4H6.25L9.075 9.7ZM14.925 9.7L17.775 4H15.25L13.125 8.25L13.6 9.2C13.8333 9.26667 14.0583 9.3375 14.275 9.4125C14.4917 9.4875 14.7083 9.58333 14.925 9.7ZM6.4 18.8C6.11667 18.3167 5.89583 17.7958 5.7375 17.2375C5.57917 16.6792 5.5 16.1 5.5 15.5C5.5 14.9 5.57917 14.3208 5.7375 13.7625C5.89583 13.2042 6.11667 12.6833 6.4 12.2C5.7 12.4333 5.125 12.8458 4.675 13.4375C4.225 14.0292 4 14.7167 4 15.5C4 16.2833 4.225 16.9708 4.675 17.5625C5.125 18.1542 5.7 18.5667 6.4 18.8ZM17.6 18.8C18.3 18.5667 18.875 18.1542 19.325 17.5625C19.775 16.9708 20 16.2833 20 15.5C20 14.7167 19.775 14.0292 19.325 13.4375C18.875 12.8458 18.3 12.4333 17.6 12.2C17.8833 12.6833 18.1042 13.2042 18.2625 13.7625C18.4208 14.3208 18.5 14.9 18.5 15.5C18.5 16.1 18.4208 16.6792 18.2625 17.2375C18.1042 17.7958 17.8833 18.3167 17.6 18.8ZM12 22C11.3333 22 10.6958 21.9042 10.0875 21.7125C9.47917 21.5208 8.91667 21.2583 8.4 20.925C8.25 20.9583 8.1 20.9792 7.95 20.9875C7.8 20.9958 7.64167 21 7.475 21C5.95833 21 4.66667 20.4667 3.6 19.4C2.53333 18.3333 2 17.0417 2 15.525C2 14.075 2.48333 12.8333 3.45 11.8C4.41667 10.7667 5.60833 10.1917 7.025 10.075L3 2H10L12 6L14 2H21L17 10.025C18.4167 10.1583 19.6042 10.7417 20.5625 11.775C21.5208 12.8083 22 14.05 22 15.5C22 17.0333 21.4667 18.3333 20.4 19.4C19.3333 20.4667 18.0333 21 16.5 21C16.35 21 16.1958 20.9958 16.0375 20.9875C15.8792 20.9792 15.725 20.9583 15.575 20.925C15.0583 21.2583 14.5 21.5208 13.9 21.7125C13.3 21.9042 12.6667 22 12 22ZM10.15 18.25L10.85 15.975L9 14.65H11.275L12 12.25L12.725 14.65H15L13.15 15.975L13.85 18.25L12 16.85L10.15 18.25Z" />
+                    </svg>
+                    <path
+                        d="M12 20C13.25 20 14.3125 19.5625 15.1875 18.6875C16.0625 17.8125 16.5 16.75 16.5 15.5C16.5 14.25 16.0625 13.1875 15.1875 12.3125C14.3125 11.4375 13.25 11 12 11C10.75 11 9.6875 11.4375 8.8125 12.3125C7.9375 13.1875 7.5 14.25 7.5 15.5C7.5 16.75 7.9375 17.8125 8.8125 18.6875C9.6875 19.5625 10.75 20 12 20ZM9.075 9.7C9.40833 9.51667 9.7625 9.37083 10.1375 9.2625C10.5125 9.15417 10.8917 9.08333 11.275 9.05L8.75 4H6.25L9.075 9.7ZM14.925 9.7L17.775 4H15.25L13.125 8.25L13.6 9.2C13.8333 9.26667 14.0583 9.3375 14.275 9.4125C14.4917 9.4875 14.7083 9.58333 14.925 9.7ZM6.4 18.8C6.11667 18.3167 5.89583 17.7958 5.7375 17.2375C5.57917 16.6792 5.5 16.1 5.5 15.5C5.5 14.9 5.57917 14.3208 5.7375 13.7625C5.89583 13.2042 6.11667 12.6833 6.4 12.2C5.7 12.4333 5.125 12.8458 4.675 13.4375C4.225 14.0292 4 14.7167 4 15.5C4 16.2833 4.225 16.9708 4.675 17.5625C5.125 18.1542 5.7 18.5667 6.4 18.8ZM17.6 18.8C18.3 18.5667 18.875 18.1542 19.325 17.5625C19.775 16.9708 20 16.2833 20 15.5C20 14.7167 19.775 14.0292 19.325 13.4375C18.875 12.8458 18.3 12.4333 17.6 12.2C17.8833 12.6833 18.1042 13.2042 18.2625 13.7625C18.4208 14.3208 18.5 14.9 18.5 15.5C18.5 16.1 18.4208 16.6792 18.2625 17.2375C18.1042 17.7958 17.8833 18.3167 17.6 18.8ZM12 22C11.3333 22 10.6958 21.9042 10.0875 21.7125C9.47917 21.5208 8.91667 21.2583 8.4 20.925C8.25 20.9583 8.1 20.9792 7.95 20.9875C7.8 20.9958 7.64167 21 7.475 21C5.95833 21 4.66667 20.4667 3.6 19.4C2.53333 18.3333 2 17.0417 2 15.525C2 14.075 2.48333 12.8333 3.45 11.8C4.41667 10.7667 5.60833 10.1917 7.025 10.075L3 2H10L12 6L14 2H21L17 10.025C18.4167 10.1583 19.6042 10.7417 20.5625 11.775C21.5208 12.8083 22 14.05 22 15.5C22 17.0333 21.4667 18.3333 20.4 19.4C19.3333 20.4667 18.0333 21 16.5 21C16.35 21 16.1958 20.9958 16.0375 20.9875C15.8792 20.9792 15.725 20.9583 15.575 20.925C15.0583 21.2583 14.5 21.5208 13.9 21.7125C13.3 21.9042 12.6667 22 12 22ZM10.15 18.25L10.85 15.975L9 14.65H11.275L12 12.25L12.725 14.65H15L13.15 15.975L13.85 18.25L12 16.85L10.15 18.25Z"
+                        fill="#052838" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="certs__card">
+                <div class="certs__card-top">
+                    <h3 class="certs__card-title">OSHA Safety Certified</h3>
+                    <p class="certs__card-text">Ensuring safe practices on every job site.</p>
+                    <span class="certs__card-year">2025</span>
+                </div>
+                <div class="certs__card-bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="white">
+                        <path
+                            d="M12 13C11.1667 13 10.4583 12.7083 9.875 12.125C9.29167 11.5417 9 10.8333 9 10C9 9.16667 9.29167 8.45833 9.875 7.875C10.4583 7.29167 11.1667 7 12 7C12.8333 7 13.5417 7.29167 14.125 7.875C14.7083 8.45833 15 9.16667 15 10C15 10.8333 14.7083 11.5417 14.125 12.125C13.5417 12.7083 12.8333 13 12 13ZM6 23V15.275C5.36667 14.575 4.875 13.775 4.525 12.875C4.175 11.975 4 11.0167 4 10C4 7.76667 4.775 5.875 6.325 4.325C7.875 2.775 9.76667 2 12 2C14.2333 2 16.125 2.775 17.675 4.325C19.225 5.875 20 7.76667 20 10C20 11.0167 19.825 11.975 19.475 12.875C19.125 13.775 18.6333 14.575 18 15.275V23L12 21L6 23ZM12 16C13.6667 16 15.0833 15.4167 16.25 14.25C17.4167 13.0833 18 11.6667 18 10C18 8.33333 17.4167 6.91667 16.25 5.75C15.0833 4.58333 13.6667 4 12 4C10.3333 4 8.91667 4.58333 7.75 5.75C6.58333 6.91667 6 8.33333 6 10C6 11.6667 6.58333 13.0833 7.75 14.25C8.91667 15.4167 10.3333 16 12 16ZM8 20.025L12 19L16 20.025V16.925C15.4167 17.2583 14.7875 17.5208 14.1125 17.7125C13.4375 17.9042 12.7333 18 12 18C11.2667 18 10.5625 17.9042 9.8875 17.7125C9.2125 17.5208 8.58333 17.2583 8 16.925V20.025Z" />
+                    </svg>
+                    <path
+                        d="M12 13C11.1667 13 10.4583 12.7083 9.875 12.125C9.29167 11.5417 9 10.8333 9 10C9 9.16667 9.29167 8.45833 9.875 7.875C10.4583 7.29167 11.1667 7 12 7C12.8333 7 13.5417 7.29167 14.125 7.875C14.7083 8.45833 15 9.16667 15 10C15 10.8333 14.7083 11.5417 14.125 12.125C13.5417 12.7083 12.8333 13 12 13ZM6 23V15.275C5.36667 14.575 4.875 13.775 4.525 12.875C4.175 11.975 4 11.0167 4 10C4 7.76667 4.775 5.875 6.325 4.325C7.875 2.775 9.76667 2 12 2C14.2333 2 16.125 2.775 17.675 4.325C19.225 5.875 20 7.76667 20 10C20 11.0167 19.825 11.975 19.475 12.875C19.125 13.775 18.6333 14.575 18 15.275V23L12 21L6 23ZM12 16C13.6667 16 15.0833 15.4167 16.25 14.25C17.4167 13.0833 18 11.6667 18 10C18 8.33333 17.4167 6.91667 16.25 5.75C15.0833 4.58333 13.6667 4 12 4C10.3333 4 8.91667 4.58333 7.75 5.75C6.58333 6.91667 6 8.33333 6 10C6 11.6667 6.58333 13.0833 7.75 14.25C8.91667 15.4167 10.3333 16 12 16ZM8 20.025L12 19L16 20.025V16.925C15.4167 17.2583 14.7875 17.5208 14.1125 17.7125C13.4375 17.9042 12.7333 18 12 18C11.2667 18 10.5625 17.9042 9.8875 17.7125C9.2125 17.5208 8.58333 17.2583 8 16.925V20.025Z" />
+                    </svg>
+                    <path
+                        d="M12 13C11.1667 13 10.4583 12.7083 9.875 12.125C9.29167 11.5417 9 10.8333 9 10C9 9.16667 9.29167 8.45833 9.875 7.875C10.4583 7.29167 11.1667 7 12 7C12.8333 7 13.5417 7.29167 14.125 7.875C14.7083 8.45833 15 9.16667 15 10C15 10.8333 14.7083 11.5417 14.125 12.125C13.5417 12.7083 12.8333 13 12 13ZM6 23V15.275C5.36667 14.575 4.875 13.775 4.525 12.875C4.175 11.975 4 11.0167 4 10C4 7.76667 4.775 5.875 6.325 4.325C7.875 2.775 9.76667 2 12 2C14.2333 2 16.125 2.775 17.675 4.325C19.225 5.875 20 7.76667 20 10C20 11.0167 19.825 11.975 19.475 12.875C19.125 13.775 18.6333 14.575 18 15.275V23L12 21L6 23ZM12 16C13.6667 16 15.0833 15.4167 16.25 14.25C17.4167 13.0833 18 11.6667 18 10C18 8.33333 17.4167 6.91667 16.25 5.75C15.0833 4.58333 13.6667 4 12 4C10.3333 4 8.91667 4.58333 7.75 5.75C6.58333 6.91667 6 8.33333 6 10C6 11.6667 6.58333 13.0833 7.75 14.25C8.91667 15.4167 10.3333 16 12 16ZM8 20.025L12 19L16 20.025V16.925C15.4167 17.2583 14.7875 17.5208 14.1125 17.7125C13.4375 17.9042 12.7333 18 12 18C11.2667 18 10.5625 17.9042 9.8875 17.7125C9.2125 17.5208 8.58333 17.2583 8 16.925V20.025Z"
+                        fill="#052838" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="certs__card">
+                <div class="certs__card-top">
+                    <h3 class="certs__card-title">LEED Accredited Professionals</h3>
+                    <p class="certs__card-text">Expertise in sustainable, eco-friendly building.</p>
+                    <span class="certs__card-year">2025</span>
+                </div>
+                <div class="certs__card-bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="white">
+                        <path
+                            d="M12 13C11.1667 13 10.4583 12.7083 9.875 12.125C9.29167 11.5417 9 10.8333 9 10C9 9.16667 9.29167 8.45833 9.875 7.875C10.4583 7.29167 11.1667 7 12 7C12.8333 7 13.5417 7.29167 14.125 7.875C14.7083 8.45833 15 9.16667 15 10C15 10.8333 14.7083 11.5417 14.125 12.125C13.5417 12.7083 12.8333 13 12 13ZM6 23V15.275C5.36667 14.575 4.875 13.775 4.525 12.875C4.175 11.975 4 11.0167 4 10C4 7.76667 4.775 5.875 6.325 4.325C7.875 2.775 9.76667 2 12 2C14.2333 2 16.125 2.775 17.675 4.325C19.225 5.875 20 7.76667 20 10C20 11.0167 19.825 11.975 19.475 12.875C19.125 13.775 18.6333 14.575 18 15.275V23L12 21L6 23ZM12 16C13.6667 16 15.0833 15.4167 16.25 14.25C17.4167 13.0833 18 11.6667 18 10C18 8.33333 17.4167 6.91667 16.25 5.75C15.0833 4.58333 13.6667 4 12 4C10.3333 4 8.91667 4.58333 7.75 5.75C6.58333 6.91667 6 8.33333 6 10C6 11.6667 6.58333 13.0833 7.75 14.25C8.91667 15.4167 10.3333 16 12 16ZM8 20.025L12 19L16 20.025V16.925C15.4167 17.2583 14.7875 17.5208 14.1125 17.7125C13.4375 17.9042 12.7333 18 12 18C11.2667 18 10.5625 17.9042 9.8875 17.7125C9.2125 17.5208 8.58333 17.2583 8 16.925V20.025Z" />
+                    </svg>
+                    <path
+                        d="M12 13C11.1667 13 10.4583 12.7083 9.875 12.125C9.29167 11.5417 9 10.8333 9 10C9 9.16667 9.29167 8.45833 9.875 7.875C10.4583 7.29167 11.1667 7 12 7C12.8333 7 13.5417 7.29167 14.125 7.875C14.7083 8.45833 15 9.16667 15 10C15 10.8333 14.7083 11.5417 14.125 12.125C13.5417 12.7083 12.8333 13 12 13ZM6 23V15.275C5.36667 14.575 4.875 13.775 4.525 12.875C4.175 11.975 4 11.0167 4 10C4 7.76667 4.775 5.875 6.325 4.325C7.875 2.775 9.76667 2 12 2C14.2333 2 16.125 2.775 17.675 4.325C19.225 5.875 20 7.76667 20 10C20 11.0167 19.825 11.975 19.475 12.875C19.125 13.775 18.6333 14.575 18 15.275V23L12 21L6 23ZM12 16C13.6667 16 15.0833 15.4167 16.25 14.25C17.4167 13.0833 18 11.6667 18 10C18 8.33333 17.4167 6.91667 16.25 5.75C15.0833 4.58333 13.6667 4 12 4C10.3333 4 8.91667 4.58333 7.75 5.75C6.58333 6.91667 6 8.33333 6 10C6 11.6667 6.58333 13.0833 7.75 14.25C8.91667 15.4167 10.3333 16 12 16ZM8 20.025L12 19L16 20.025V16.925C15.4167 17.2583 14.7875 17.5208 14.1125 17.7125C13.4375 17.9042 12.7333 18 12 18C11.2667 18 10.5625 17.9042 9.8875 17.7125C9.2125 17.5208 8.58333 17.2583 8 16.925V20.025Z"
+                        fill="#052838" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="certs__card">
+                <div class="certs__card-top">
+                    <h3 class="certs__card-title">Licensed General Contractor</h3>
+                    <p class="certs__card-text">Recognized by industry leaders.</p>
+                    <span class="certs__card-year">2025</span>
+                </div>
+                <div class="certs__card-bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="white">
+                        <path
+                            d="M12 20C13.25 20 14.3125 19.5625 15.1875 18.6875C16.0625 17.8125 16.5 16.75 16.5 15.5C16.5 14.25 16.0625 13.1875 15.1875 12.3125C14.3125 11.4375 13.25 11 12 11C10.75 11 9.6875 11.4375 8.8125 12.3125C7.9375 13.1875 7.5 14.25 7.5 15.5C7.5 16.75 7.9375 17.8125 8.8125 18.6875C9.6875 19.5625 10.75 20 12 20ZM9.075 9.7C9.40833 9.51667 9.7625 9.37083 10.1375 9.2625C10.5125 9.15417 10.8917 9.08333 11.275 9.05L8.75 4H6.25L9.075 9.7ZM14.925 9.7L17.775 4H15.25L13.125 8.25L13.6 9.2C13.8333 9.26667 14.0583 9.3375 14.275 9.4125C14.4917 9.4875 14.7083 9.58333 14.925 9.7ZM6.4 18.8C6.11667 18.3167 5.89583 17.7958 5.7375 17.2375C5.57917 16.6792 5.5 16.1 5.5 15.5C5.5 14.9 5.57917 14.3208 5.7375 13.7625C5.89583 13.2042 6.11667 12.6833 6.4 12.2C5.7 12.4333 5.125 12.8458 4.675 13.4375C4.225 14.0292 4 14.7167 4 15.5C4 16.2833 4.225 16.9708 4.675 17.5625C5.125 18.1542 5.7 18.5667 6.4 18.8ZM17.6 18.8C18.3 18.5667 18.875 18.1542 19.325 17.5625C19.775 16.9708 20 16.2833 20 15.5C20 14.7167 19.775 14.0292 19.325 13.4375C18.875 12.8458 18.3 12.4333 17.6 12.2C17.8833 12.6833 18.1042 13.2042 18.2625 13.7625C18.4208 14.3208 18.5 14.9 18.5 15.5C18.5 16.1 18.4208 16.6792 18.2625 17.2375C18.1042 17.7958 17.8833 18.3167 17.6 18.8ZM12 22C11.3333 22 10.6958 21.9042 10.0875 21.7125C9.47917 21.5208 8.91667 21.2583 8.4 20.925C8.25 20.9583 8.1 20.9792 7.95 20.9875C7.8 20.9958 7.64167 21 7.475 21C5.95833 21 4.66667 20.4667 3.6 19.4C2.53333 18.3333 2 17.0417 2 15.525C2 14.075 2.48333 12.8333 3.45 11.8C4.41667 10.7667 5.60833 10.1917 7.025 10.075L3 2H10L12 6L14 2H21L17 10.025C18.4167 10.1583 19.6042 10.7417 20.5625 11.775C21.5208 12.8083 22 14.05 22 15.5C22 17.0333 21.4667 18.3333 20.4 19.4C19.3333 20.4667 18.0333 21 16.5 21C16.35 21 16.1958 20.9958 16.0375 20.9875C15.8792 20.9792 15.725 20.9583 15.575 20.925C15.0583 21.2583 14.5 21.5208 13.9 21.7125C13.3 21.9042 12.6667 22 12 22ZM10.15 18.25L10.85 15.975L9 14.65H11.275L12 12.25L12.725 14.65H15L13.15 15.975L13.85 18.25L12 16.85L10.15 18.25Z" />
+                    </svg>
+
+                    </svg>
+                </div>
+            </div>
+
+            <div class="certs__card">
+                <div class="certs__card-top">
+                    <h3 class="certs__card-title">OSHA Safety Trained</h3>
+                    <p class="certs__card-text">Compliant with all local and national regulations.</p>
+                    <span class="certs__card-year">2023, 2024, 2025</span>
+                </div>
+                <div class="certs__card-bottom">
+                    <span class="certs__badge">Winner</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="white">
+                        <path
+                            d="M9.675 13.7L10.55 10.85L8.25 9H11.1L12 6.2L12.9 9H15.75L13.425 10.85L14.3 13.7L12 11.925L9.675 13.7ZM6 23V15.275C5.36667 14.575 4.875 13.775 4.525 12.875C4.175 11.975 4 11.0167 4 10C4 7.76667 4.775 5.875 6.325 4.325C7.875 2.775 9.76667 2 12 2C14.2333 2 16.125 2.775 17.675 4.325C19.225 5.875 20 7.76667 20 10C20 11.0167 19.825 11.975 19.475 12.875C19.125 13.775 18.6333 14.575 18 15.275V23L12 21L6 23ZM12 16C13.6667 16 15.0833 15.4167 16.25 14.25C17.4167 13.0833 18 11.6667 18 10C18 8.33333 17.4167 6.91667 16.25 5.75C15.0833 4.58333 13.6667 4 12 4C10.3333 4 8.91667 4.58333 7.75 5.75C6.58333 6.91667 6 8.33333 6 10C6 11.6667 6.58333 13.0833 7.75 14.25C8.91667 15.4167 10.3333 16 12 16ZM8 20.025L12 19L16 20.025V16.925C15.4167 17.2583 14.7875 17.5208 14.1125 17.7125C13.4375 17.9042 12.7333 18 12 18C11.2667 18 10.5625 17.9042 9.8875 17.7125C9.2125 17.5208 8.58333 17.2583 8 16.925V20.025Z" />
+                    </svg>
+                    <path
+                        d="M12 20C13.25 20 14.3125 19.5625 15.1875 18.6875C16.0625 17.8125 16.5 16.75 16.5 15.5C16.5 14.25 16.0625 13.1875 15.1875 12.3125C14.3125 11.4375 13.25 11 12 11C10.75 11 9.6875 11.4375 8.8125 12.3125C7.9375 13.1875 7.5 14.25 7.5 15.5C7.5 16.75 7.9375 17.8125 8.8125 18.6875C9.6875 19.5625 10.75 20 12 20ZM9.075 9.7C9.40833 9.51667 9.7625 9.37083 10.1375 9.2625C10.5125 9.15417 10.8917 9.08333 11.275 9.05L8.75 4H6.25L9.075 9.7ZM14.925 9.7L17.775 4H15.25L13.125 8.25L13.6 9.2C13.8333 9.26667 14.0583 9.3375 14.275 9.4125C14.4917 9.4875 14.7083 9.58333 14.925 9.7ZM6.4 18.8C6.11667 18.3167 5.89583 17.7958 5.7375 17.2375C5.57917 16.6792 5.5 16.1 5.5 15.5C5.5 14.9 5.57917 14.3208 5.7375 13.7625C5.89583 13.2042 6.11667 12.6833 6.4 12.2C5.7 12.4333 5.125 12.8458 4.675 13.4375C4.225 14.0292 4 14.7167 4 15.5C4 16.2833 4.225 16.9708 4.675 17.5625C5.125 18.1542 5.7 18.5667 6.4 18.8ZM17.6 18.8C18.3 18.5667 18.875 18.1542 19.325 17.5625C19.775 16.9708 20 16.2833 20 15.5C20 14.7167 19.775 14.0292 19.325 13.4375C18.875 12.8458 18.3 12.4333 17.6 12.2C17.8833 12.6833 18.1042 13.2042 18.2625 13.7625C18.4208 14.3208 18.5 14.9 18.5 15.5C18.5 16.1 18.4208 16.6792 18.2625 17.2375C18.1042 17.7958 17.8833 18.3167 17.6 18.8ZM12 22C11.3333 22 10.6958 21.9042 10.0875 21.7125C9.47917 21.5208 8.91667 21.2583 8.4 20.925C8.25 20.9583 8.1 20.9792 7.95 20.9875C7.8 20.9958 7.64167 21 7.475 21C5.95833 21 4.66667 20.4667 3.6 19.4C2.53333 18.3333 2 17.0417 2 15.525C2 14.075 2.48333 12.8333 3.45 11.8C4.41667 10.7667 5.60833 10.1917 7.025 10.075L3 2H10L12 6L14 2H21L17 10.025C18.4167 10.1583 19.6042 10.7417 20.5625 11.775C21.5208 12.8083 22 14.05 22 15.5C22 17.0333 21.4667 18.3333 20.4 19.4C19.3333 20.4667 18.0333 21 16.5 21C16.35 21 16.1958 20.9958 16.0375 20.9875C15.8792 20.9792 15.725 20.9583 15.575 20.925C15.0583 21.2583 14.5 21.5208 13.9 21.7125C13.3 21.9042 12.6667 22 12 22ZM10.15 18.25L10.85 15.975L9 14.65H11.275L12 12.25L12.725 14.65H15L13.15 15.975L13.85 18.25L12 16.85L10.15 18.25Z"
+                        fill="#052838" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="certs__footer">
+            <a class="button certs__btn" href="#">View All Certifications ›</a>
+        </div>
+    </section>
+    <section class="partners padding-tb">
+        <div class="partners__container">
+
+            <div class="partners__header">
+                <h2 class="heading">Trusted partners</h2>
+                <p class="text-big">
+                    We believe great construction happens through strong partnerships.
+                    Over the years, we've formed relationships with leading suppliers,
+                    architects, and industry organizations.
+                </p>
+            </div>
+
+            <div class="partners__slider">
+
+                <button class="partners__arrow partners__arrow--prev"></button>
+
+                <div class="partners__track">
+
+                    <div class="partners__card">
+                        <img src="images/Project1.svg.png" alt="CityPoint Retail Center">
+                        <div class="partners__overlay">
+                            <h3>CityPoint Retail Center</h3>
+                            <p>From sleek modern homes to large-scale commercial complexes, our projects reflect the
+                                skill, precision, and dedication we bring.</p>
+                        </div>
+                    </div>
+
+                    <div class="partners__card">
+                        <img src="images/Project2.svg.png" alt="Skyline Business Tower">
+                        <div class="partners__overlay">
+                            <h3>Skyline Business Tower</h3>
+                            <p>Commercial construction project focused on durability, modern design, and long-term
+                                performance.</p>
+                        </div>
+                    </div>
+
+                    <div class="partners__card">
+                        <img src="images/Project3.svg.png" alt="Urban Office Complex">
+                        <div class="partners__overlay">
+                            <h3>Urban Office Complex</h3>
+                            <p>A large-scale office development completed with attention to safety, quality, and detail.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="partners__arrow partners__arrow--next"></button>
+
+            </div>
+            <div class="partners__footer">
+                <div class="partners__pagination">
+                    <span>01/03</span>
+                    <div class="partners__line">
+                        <div class="partners__progress"></div>
+                    </div>
+                </div>
+
+                <a href="#" class="button partners__btn">View Full Portfolio ›</a>
+            </div>
+
+        </div>
+    </section>
+
+    </div>
+    </section>
+
+    </div>
+    </section>
+    <section class="faq">
+        <div class="faq__container">
+            <h2 class="heading faq__title">Frequently asked questions</h2>
+
+            <div class="faq__list">
+                <div class="faq__item">
+                    <button class="faq__question">
+                        What types of construction projects do you handle?
+                        <span class="faq__icon">⌄</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>We handle residential, commercial, renovation, and custom construction projects.</p>
+                    </div>
+                </div>
+
+                <div class="faq__item active">
+                    <button class="faq__question">
+                        How long will my project take?
+                        <span class="faq__icon">⌃</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Project timelines vary depending on scope and complexity. We’ll provide a detailed schedule
+                            after our initial consultation and keep you updated at every stage.</p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <button class="faq__question">
+                        Do you provide cost estimates before starting?
+                        <span class="faq__icon">⌄</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Yes, we provide transparent estimates before work begins.</p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <button class="faq__question">
+                        Are you licensed and insured?
+                        <span class="faq__icon">⌄</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Yes, our team is fully licensed and insured.</p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <button class="faq__question">
+                        Can you work with my own architect or designer?
+                        <span class="faq__icon">⌄</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Yes, we can collaborate with your architect, designer, or project team.</p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <button class="faq__question">
+                        Do you offer eco-friendly building options?
+                        <span class="faq__icon">⌄</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Yes, we offer sustainable materials and eco-friendly building solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="start-project">
+        <div class="start-project__content">
+            <div class="start-project__info">
+                <h2 class="start-project__title">Start your project today!</h2>
+
+                <p class="start-project__text">
+                    Tell us about your construction needs, and our team will get back to you with a detailed proposal.
+                </p>
+
+                <p class="start-project__text">
+                    Once we receive your application, one of our project managers will contact you within 24 hours to
+                    discuss your goals, budget, and next steps.
+                </p>
+
+                <form class="start-project__form" id="projectForm">
+                    <input type="tel" placeholder="Phone Number" class="start-project__input" id="phoneInput" required>
+                    <button type="submit" class="start-project__submit">
+                        Submit
+                    </button>
+                </form>
+
+                <p class="start-project__privacy">
+                    *By clicking on the button, you agree to the privacy policy and give consent to the processing of
+                    your personal data.
+                </p>
+            </div>
+
+            <div class="start-project__picture">
+                <img src="images/proektstar.png" alt="Modern apartment building">
+            </div>
+        </div>
+    </section>
+    </div>
+
+    </div>
+
+    </section>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__left">
+                <a class="footer__logo" href="#">
+                    <img src="images/Logo (2).svg" alt="BuildWise">
+                </a>
+                <p class="footer__copy">© 2023 Company</p>
+                <div class="footer__socials">
+                    <a href="#" class="footer__social">
+                        <img src="images/Instagram.svg.svg" alt="Instagram">
+                    </a>
+                    <a href="#" class="footer__social">
+                        <img src="images/Telegram.svg.svg" alt="Telegram">
+                    </a>
+                    <a href="#" class="footer__social">
+                        <img src="images/Twitter.svg.svg" alt="Twitter">
+                    </a>
+                    <a href="#" class="footer__social">
+                        <img src="images/Facebook.svg.svg" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+
+            <nav class="footer__nav">
+                <a class="footer__nav-link" href="#">Main</a>
+                <a class="footer__nav-link" href="#">Portfolio</a>
+                <a class="footer__nav-link" href="#">Price</a>
+                <a class="footer__nav-link" href="#">Certifications</a>
+                <a class="footer__nav-link" href="#">Contacts</a>
+            </nav>
+
+            <div class="footer__form-block">
+                <h3 class="footer__form-title">Tell us about your construction needs</h3>
+                <p class="footer__form-text">
+                    Once we receive your application, one of our project managers will contact you within 24
+                    hours to discuss your goals, budget, and next steps.
+                </p>
+                <form class="footer__form">
+                    <input class="footer__input" type="tel" placeholder="Phone Number" />
+                    <button class="footer__submit" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
